@@ -1,0 +1,34 @@
+----------- YOLO ---------------
+https://pjreddie.com/darknet/yolo/
+
+convertir de pdf a imagenes (quedan en .tif)
+	usando modulo de knime
+	D:\Users\WS-006\knime-workspace\ConexionS3-hospital\data\Hopital-PDFs\proyecto-sa-hd\Pruebas\HC\imagenes_dataset
+
+generar el dataset
+	tomar las hc en formato tiff (images)
+	convertir a jpg usando cambio.py (ims)
+	D:\Users\WS-006\Desktop\yolo\dataset-pdf-HC
+	
+
+descargar labelimg y configurar
+	descarga: https://github.com/tzutalin/labelImg
+	tutorial: https://www.youtube.com/watch?v=fjynQ9P2C08
+	guardar etiquetas de imagenes (ima-label) ---seguir pasos----
+	D:\Users\WS-006\Desktop\yolo\dataset-pdf-HC
+
+
+pasos
+	abrir carpeta de dataset ims (D:\Users\WS-006\Desktop\yolo\dataset-pdf-HC)
+	cambiar clases predefinidas del labelimg (D:\Users\WS-006\Desktop\yolo\labelImg-master\data)
+	abrir labelImg.py (D:\Users\WS-006\Desktop\yolo\labelImg-master)
+	importar carpeta de dataset - open dir (ims)
+	cambiar de pascar a yolo (barra de la izquierda en labelimg)
+	seleccionar create Rectbox
+	resaltar la parte que quiero etiquetar
+	ir guardando cada txt en carpeta ima-label
+
+configurar yolo
+	https://www.youtube.com/watch?v=SBNlIdAcq5k
+	usar split_files
+	

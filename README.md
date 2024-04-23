@@ -27,4 +27,4 @@ A convolutional neural network consists of multiple layers, including convolutio
 
 In the case of YOLOv4, the architecture is optimized for real-time object detection, meaning it can process images quickly and accurately. YOLOv4 achieves this by employing a single neural network to predict bounding boxes and class probabilities directly from full images in a single evaluation. This approach contrasts with traditional methods, which typically involve region proposal networks followed by post-processing steps to refine detections.
 
-The strength of YOLOv4 lies in its ability to efficiently process images and make predictions in real-time, making it well-suited for applications such as autonomous driving, surveillance, and medical image analysis, where quick and accurate detection of objects or features is crucial.
+## The strength of YOLOv4 lies in its ability to efficiently process images and make predictions in real-time, making it well-suited for applications such as autonomous driving, surveillance, and medical image analysis, where quick and accurate detection of objects or features is crucial.
